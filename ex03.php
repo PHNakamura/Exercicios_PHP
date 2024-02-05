@@ -40,4 +40,32 @@
         }
     }
 
+    echo "<br>";
+    echo "1) <br>";
+    calcularDesconto(100, "Eletrônico");
+    echo "<br>";
 
+    echo "<br>";
+    echo "2) <br>";
+    calcularDesconto(100, "Vestuário");
+    echo "<br>";
+
+    echo "<br>";
+    echo "3) <br>";
+    calcularDesconto(100, "Alimentos");
+    echo "<br>";
+
+    echo "<br>";
+    echo "4) <br>";
+    calcularDesconto(100, "Lazer");
+    echo "<br>";
+
+    echo "<br>";
+    echo "5) <br>";
+    calcularDesconto(100, "eletronico");
+    echo "<br>";
+
+    echo "<br>";
+    echo "6) <br>";
+    calcularDesconto(100, "Bebidas");
+    echo "<br>";
