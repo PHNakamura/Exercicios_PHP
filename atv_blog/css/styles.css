@@ -237,7 +237,7 @@ footer {
         margin-top: 20px;
     }
 
-    #post-container {
+    .post-container {
         margin-top: 20px;
     }
 
@@ -248,9 +248,16 @@ footer {
     }
  
     /* POST */
-    #post-container {
+    .post-container {
         grid-template-columns: 100%;
         padding: 15px;
+        grid-template-areas: "main"
+        "sidebar";
+    }
+
+    .img-container img {
+        width: 100%;
+        
     }
 
 }
