@@ -237,4 +237,15 @@ footer {
         margin-top: 20px;
     }
 
+    #post-container {
+        margin-top: 20px;
+    }
+
+    .post-box {
+        flex: 100% 1 0;
+        padding: 15px;
+        margin: 0;
+    }
+
+
 }
