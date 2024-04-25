@@ -8,6 +8,40 @@
     //      - Se a idade for maior ou igual a 18 anos e autorização for verdadeira, retorne a string "Acesso autorizado";
     //      - Se a idade for menor que 18 anos, retorne a string "Acesso negado. Idade mínima requerida: 18 anos";
     //      - Se a idade for maior ou igual a 18 anos, mas a autorização for falsa, retorne a string "Acesso negado. Autorização necessária".
+<<<<<<< HEAD
+=======
+
+    function verificarAcesso($x, $y){
+        if($x == null && $y == null) {
+            echo "ACESSO NEGADO! <br> AS condições não podem ser nulas. <br>";
+        } else {
+            if($x >= 18 && $y == true){
+                echo "Acesso autorizado. <br>";
+            } elseif($x < 18){
+                echo "Acesso negado. <br> Idade mínima requerida: 18 anos. <br>";
+            } elseif($x >= 18 && $y == false){
+                echo "Acesso negado. <br> Autorização necessária. <br>";
+            } else {
+                echo "ACESSO NEGADO! <br>";
+            }
+        }
+    }
+
+    echo "<br> <br> 1) <br>";
+    verificarAcesso(18, true);
+
+    echo "<br> <br> 2) <br>";
+    verificarAcesso(15, true);
+
+    echo "<br> <br> 3) <br>";
+    verificarAcesso(20, false);
+
+    echo "<br> <br> 4) <br>";
+    verificarAcesso(null, null);
+
+    echo "<br> <br> 5) <br>";
+    verificarAcesso(50, null);
+>>>>>>> 322061628b90ab2555b67a14ae210ec4165f932d
 
     function verificarAcesso($x, $y){
         if($x >= 18 && $y == true){
